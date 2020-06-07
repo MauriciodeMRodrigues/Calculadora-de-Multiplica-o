@@ -1,4 +1,4 @@
-var teste = ['Mauricio', 'Gabe', 'Ariel'];
+var teste = ['Mauricio', 'Chico', 'Gabe', 'Ariel'];
 
 function mapNames(list) {
     list.filter((name => {

@@ -1,0 +1,38 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Números</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <h1>Realize operações de multiplicação </h1>
+        <p> Se o número não for inteiro, utilize o ponto (".") para indicar a fração. <br>
+            Ex.: 1.2 * 15 
+        </p>
+        
+
+        
+        <input type="text" placeholder="Informe o primeiro número" id="numero1">
+        <input type="text" placeholder="Informe o segundo número" id="numero2">
+
+       
+        <button onclick="minhaFuncao()">Resultado</button>
+       
+       <script>
+           
+            function minhaFuncao(){
+                
+                var numero1 = parseFloat(document.querySelector('#numero1').value);
+                var numero2 = parseFloat(document.querySelector('#numero2').value);
+                
+                var Resultado = numero1 * numero2;
+                
+                alert(`O RESULTADO DESTA MULTIPLICAÇÃO É: ${Resultado}`);
+                
+                //alert(`Primeiro Número: ${numero1} Segundo Número: ${numero2}`);
+            }
+
+        </script>
+     </body>
+</html> 
